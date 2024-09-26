@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Rivest Shamir Adleman"
         android:layout_marginVertical="15dp"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="#000000" />
 
@@ -45,16 +45,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:padding="10dp"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:textColor="#000000"
         android:layout_marginTop="15dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#60F166"
+        android:background="#D7EFD9"
         android:orientation="vertical"
         android:layout_marginTop="15dp"
         android:padding="15dp">
@@ -71,7 +71,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F3CFC4"
+        android:background="#F1D8D0"
         android:orientation="vertical"
         android:layout_marginTop="15dp"
         android:padding="15dp">
@@ -79,7 +79,7 @@
         android:id="@+id/encryptedPasswordTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RSA Encripsion"
+        android:text="RSA Encryption"
         android:textSize="18sp"
         android:textColor="#000000" /> <!-- Menampilkan password terenkripsi -->
     </LinearLayout>
